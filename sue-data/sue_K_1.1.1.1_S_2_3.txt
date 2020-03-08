@@ -1,0 +1,44 @@
+{
+  "About": "This file contains the solutions of the S-unit equation lambda_x * x + lambda_y * y = 1 over the given number field K, for given coefficients lambda_x and lambda_y in K, and where x and y are S-units for the given set of prime ideals S. For any solution (x,y), only x is stored in this file.",
+  "Author": "Benjamin Matschke",
+  "License": "Creative Commons Attribution-NonCommercial 4.0 International license.",
+  "*Complete": "Yes: this table is provably complete.",
+  "Number of solutions": 21,
+  "Time in CPU seconds": 2.49,
+  "lambda_x": "1",
+  "lambda_y": "1",
+  "Polynomial of K": "x",
+  "S": [
+    [
+      "2",
+      "2"
+    ],
+    [
+      "3",
+      "3"
+    ]
+  ],
+  "set of values for x": [
+    "2",
+    "3",
+    "-1/2",
+    "4",
+    "1/2",
+    "3/2",
+    "9",
+    "-1/3",
+    "1/3",
+    "2/3",
+    "4/3",
+    "1/4",
+    "3/4",
+    "-1/8",
+    "1/9",
+    "9/8",
+    "8/9",
+    "-1",
+    "-8",
+    "-3",
+    "-2"
+  ]
+}
