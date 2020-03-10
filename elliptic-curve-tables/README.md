@@ -12,7 +12,7 @@ To compute M(S,K), we first use Koutsianas' reduction to finitely many S-unit eq
 - K: A number field K is given by a monic polynomial f in Q[x], such that K is isomorphic to Q[x]/(f).
   - Elements of K will then be uniquely represented by polynomials in Q[x] of degree less than deg(f).
   - In filenames, K will be given by its [LMFDB label](https://www.lmfdb.org/NumberField/FieldLabels) 
-    (although that the last entry may not yet be assigned by the LMFDB, in which case we choose one).  
+    (although the last entry may not yet be assigned by the LMFDB, in which case we choose one).  
     The label is composed of the degree of K, its number of real places, the absolute value of its discriminant, and index (usually 1).
     For example, the label of Q is 1.1.1.1.
 - S: Primes of K are prime ideals of OK, which are given as lists of their generators.
@@ -55,10 +55,10 @@ If GRH is assumed, the filename is marked with an asterisk '*', and the json fil
     {2,3}                                  752               83
     {2,3,5}                               7600              442
     {2,3,5,7}                            71520             2140
-    {2,...,11}                          592192             8980
-    {2,...,13}                         4576128            34960
-    {2,...,17}                        32367872*          124124*
-    {2,...,19}                       217923072*          418816*
+    {2,3,5,7,11}                        592192             8980
+    {2,3,5,7,11,13}                    4576128            34960
+    {2,3,5,7,11,13,17}                32367872*          124124*
+    {2,3,5,7,11,13,17,19}            217923072*          418816*
 
     K = Q(sqrt(-3)) = "2.0.3.1":
     ============================
@@ -70,6 +70,7 @@ If GRH is assumed, the filename is marked with an asterisk '*', and the json fil
     {2,3}                                 1776              193
     {2,3,5}                              12944              722
     {2,3,5,7}                           754112*           11024*
+    {2,3,5,7,11}                       4044672*           29350*
 
     K = Q(i) = "2.0.4.1":
     =====================
