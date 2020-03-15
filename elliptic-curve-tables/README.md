@@ -43,7 +43,7 @@ This being said, great effort has already been undertaken to assure that every d
 Each given data file is either provably complete, or its completeness is conditional on GRH.
 If GRH is assumed, the filename is marked with an asterisk '*', and the json file also mentions it. 
 
-### Number of curves for some small fields
+### Number of elliptic curves for some small fields
 
     K = Q = "1.1.1.1":
     ==================
@@ -57,8 +57,8 @@ If GRH is assumed, the filename is marked with an asterisk '*', and the json fil
     {2,3,5,7}                            71520             2140
     {2,3,5,7,11}                        592192             8980
     {2,3,5,7,11,13}                    4576128            34960
-    {2,3,5,7,11,13,17}                32367872*          124124*
-    {2,3,5,7,11,13,17,19}            217923072*          418816*
+    {2,3,5,7,11,13,17}                32367872           124124
+    {2,3,5,7,11,13,17,19}            217923072           418816
 
     K = Q(sqrt(-3)) = "2.0.3.1":
     ============================
@@ -82,6 +82,8 @@ If GRH is assumed, the filename is marked with an asterisk '*', and the json fil
     {2,3}                                 1280*             145*
     {2,3,5}                             107296*            3242*
     {2,3,5,7}                           617024*            9336*
+    
+    * - conditional on GRH.
 
 ### Related data:
 
