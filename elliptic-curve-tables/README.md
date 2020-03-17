@@ -82,6 +82,7 @@ If GRH is assumed, the filename is marked with an asterisk '*', and the json fil
     {2,3}                                 1280*             145*
     {2,3,5}                             107296*            3242*
     {2,3,5,7}                           617024*            9336*
+    {2,3,5,7,11}                       3368576*           25462*
     
     * - conditional on GRH.
 
