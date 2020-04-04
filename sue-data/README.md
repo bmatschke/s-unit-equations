@@ -24,3 +24,7 @@ Benjamin Matschke.
 
 Creative Commons BY-NC 4.0.
 
+### Acknowledgements
+
+This project is being supported by the [Simons Collaboration on Arithmetic Geometry, Number Theory, and Computation](https://simonscollab.icerm.brown.edu/).
+
