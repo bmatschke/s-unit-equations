@@ -89,7 +89,7 @@ If GRH is assumed, the filename is marked with an asterisk '*', and the json fil
 ### Related data:
 
 - M({2,3,23},Q) was computed by Koutsianas via S-unit equations [[arxiv:1511.05108]](https://arxiv.org/abs/1511.05108), [[github]](https://github.com/akoutsianas/ERGOS).
-- M({2,3,5,7,11},Q) was computed by von K\"anel and Matschke via a reduction to Mordell equations [[arxiv:1909.00480]](https://arxiv.org/abs/1909.00480), [[github]](https://github.com/bmatschke/solving-classical-diophantine-equations), and recomputed by Bennett, Gherga and Rechnitzer via a reduction to Thue--Mahler equations [[pdf]](https://www.math.ubc.ca/~andrewr/pubs/BeGhRe.pdf), [[www.nt.math.ubc.ca/BeGhRe/]](https://www.nt.math.ubc.ca/BeGhRe/).
+- M({2,3,5,7,11},Q) was computed by von Känel and Matschke via a reduction to Mordell equations [[arxiv:1909.00480]](https://arxiv.org/abs/1909.00480), [[github]](https://github.com/bmatschke/solving-classical-diophantine-equations), and recomputed by Bennett, Gherga and Rechnitzer via a reduction to Thue--Mahler equations [[pdf]](https://www.math.ubc.ca/~andrewr/pubs/BeGhRe.pdf), [[www.nt.math.ubc.ca/BeGhRe/]](https://www.nt.math.ubc.ca/BeGhRe/).
 - M({2,3,5,7,11,13},Q) was heuristically computed and analysed by Best and Matschke via Mordell equations, [[github]](https://github.com/elliptic-curve-data/ec-data-S6). 
 
 ### Author

@@ -24,7 +24,7 @@ If GRH is assumed, the filename is marked with an asterisk '*', and the json fil
 ### Related projects
 
 - An S-unit equation solver over number fields by Alvarado, Koutsianas, Malmskog, Rasmussen, Vincent, West [[arxiv:1903.00977]](https://arxiv.org/abs/1903.00977), available in [sage](https://www.sagemath.org/).
-- An S-unit equation solver over Q by von K"anel and Matschke [[arxiv:1909.00480]](https://arxiv.org/abs/1909.00480), [[github]](https://github.com/bmatschke/solving-classical-diophantine-equations).
+- An S-unit equation solver over Q by von Känel and Matschke [[arxiv:1909.00480]](https://arxiv.org/abs/1909.00480), [[github]](https://github.com/bmatschke/solving-classical-diophantine-equations).
 
 ### Author
 
