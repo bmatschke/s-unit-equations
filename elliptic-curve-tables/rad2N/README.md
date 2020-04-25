@@ -26,3 +26,16 @@ Each zip file contains the j-invariants of all* rational elliptic curves with go
 
 Note that the files have a certain overlap, as any single file represents some M(S,K), and M(S,K) is contained in M(T,K) for any superset T of S.
 This redundancy is intended to make the data more searchable and uniform, at the price of a larger table.
+
+### Author
+
+Benjamin Matschke.
+
+### License
+
+Creative Commons BY-NC 4.0.
+
+### Acknowledgements
+
+This project is being supported by the [Simons Collaboration on Arithmetic Geometry, Number Theory, and Computation](https://simonscollab.icerm.brown.edu/).
+
