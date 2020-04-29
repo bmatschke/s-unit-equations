@@ -66,7 +66,7 @@ If GRH is assumed, the filename is marked with an asterisk '*', and the json fil
     Primes over     Isomorphism classes over K        over Qbar
     ------------------------------------------------------------
     {}                                       0                0
-    {2}                                     44               11
+    {2}                                     44               10
     {2,3}                                 1776              193
     {2,3,5}                              12944              722
     {2,3,5,7}                           754112*           11024*

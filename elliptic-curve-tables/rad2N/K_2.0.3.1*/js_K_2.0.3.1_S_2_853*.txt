@@ -3,7 +3,7 @@
   "Author": "Benjamin Matschke",
   "License": "Creative Commons Attribution-NonCommercial 4.0 International license.",
   "*Complete": "Conditional under GRH: Assuming GRH (which was done when computing the class groups of certain extension fields of K), this table is provably complete.",
-  "Number of j-invariants": 58,
+  "Number of j-invariants": 57,
   "Time in CPU seconds": 872.47,
   "Polynomial of K": "x^2 - x + 1",
   "S": [
@@ -21,7 +21,6 @@
     ]
   ],
   "j-invariants": [
-    "0",
     "128",
     "-7936/853*x + 6912/853",
     "7936/853*x - 1024/853",

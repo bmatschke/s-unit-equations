@@ -3,7 +3,7 @@
   "Author": "Benjamin Matschke",
   "License": "Creative Commons Attribution-NonCommercial 4.0 International license.",
   "*Complete": "Yes: this table is provably complete.",
-  "Number of j-invariants": 77,
+  "Number of j-invariants": 76,
   "Time in CPU seconds": 431.77,
   "Polynomial of K": "x^4 - x^3 - x^2 + x + 1",
   "S": [
@@ -13,7 +13,6 @@
     ]
   ],
   "j-invariants": [
-    "0",
     "128",
     "256*x^3 - 256*x^2 + 256",
     "1664*x^3 - 2560*x^2 - 640*x + 2688",
