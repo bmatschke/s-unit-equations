@@ -2,10 +2,17 @@
 
 This folder contains tables of elliptic curves over number fields K with good reduction outside a given set of primes S.
 
+### Contents
+
+- Folder `good-reduction-away-from-first-primes`: smaller fields K, S the primes in K above the first n primes.
+- Folder `good-reduction-away-from-2`: many fields K, S the primes in K above 2.
+- Folder `bounded-rad2N`: smaller fields K, all elliptic curves with a bound on the radical of twice the conductor norm.
+- Folder `fields`: tables of number fields, which were computed along the way.
+
 ### Computation method
 
 Let M(S,K) denote the set of K-ismorphism classes of elliptic curves over K with good reduction outside S.  
-To compute M(S,K), we first use Koutsianas' reduction to finitely many S-unit equations over certain extension fields L, which we then solve using the solver in this repository.
+To compute M(S,K), we first use Koutsianas' (Elkies, Cremona) reduction to finitely many S-unit equations over certain extension fields L, which we then solve using the solver in this repository.
 
 ### Format
 
