@@ -5,7 +5,7 @@ This folder contains tables of elliptic curves over number fields K with bounded
 ### Contents
 
 - Folder `K_1.1.1.1`: All elliptic curves over Q with `rad(2*N) <= 2000`, given by (c4,c6).
-- Folder `K_1.1.1.1*`: All* elliptic curves over Q with `rad(2*N) <= 200000`, given by j. 
+- Folder `K_1.1.1.1*`: All* elliptic curves over Q with `rad(2*N) <= 330000`, given by j. 
 - Folder `K_2.0.3.1*`: All* elliptic curves over Q(sqrt(-3)) with `rad(2*Norm(N)) <= 2000`, given by j.
 - Folder `K_2.0.4.1*`: All* elliptic curves over Q(i) with `rad(2*Norm(N)) <= 2000`, given by j.
 - Folder `K_2.2.5.1*`: All* elliptic curves over Q(sqrt(5)) with `rad(2*Norm(N)) <= 1000`, given by j.

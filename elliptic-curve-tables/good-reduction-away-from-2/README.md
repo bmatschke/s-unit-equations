@@ -11,8 +11,7 @@ Each folder `K_deg_XXX_S_2` contains sets `M(2,K)` for certain number fields of 
 As in all tables of this repository, the completeness of the computed sets `M(2,K)` may be conditional on GRH, in which case this is signified by an asterisk `*` in the filename. 
  
 All fields K with `|disc(K)| <= 10000` are considered.
-More precisely:
-For a fixed degree n, all fields K of degree n up to `|disc(K)| <= B(n)` are considered, where `B(n)` is given in the following table:
+Moreover, in certain degrees n, all fields K of degree n up to `|disc(K)| <= B(n)` are considered, where n and `B(n)` are given in the following table:
     
      n        B(n)
     ---------------
@@ -23,5 +22,6 @@ For a fixed degree n, all fields K of degree n up to `|disc(K)| <= B(n)` are con
      6      100000
      7     1000000
 
+In degrees `n >= 8`, it is known that `|disc(K)| >= 1000000`, and we only computed `M(2,K)` for a few examples.
 
 For information, see the README.md in the folder above.
