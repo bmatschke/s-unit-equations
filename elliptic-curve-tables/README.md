@@ -6,6 +6,7 @@ This folder contains tables of elliptic curves over number fields K with good re
 
 - Folder `good-reduction-away-from-first-primes`: smaller fields K, S the primes in K above the first n primes.
 - Folder `good-reduction-away-from-2`: many fields K, S the primes in K above 2.
+- Folder `good-reduction-everywhere`: many fields K, S the empty set.
 - Folder `bounded-rad2N`: smaller fields K, all elliptic curves with a bound on the radical of twice the conductor norm.
 - Folder `fields`: tables of number fields, which were computed along the way.
 

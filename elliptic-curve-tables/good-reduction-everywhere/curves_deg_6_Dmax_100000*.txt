@@ -1,0 +1,14 @@
+{
+  "About": "This file considers all number fields K with deg(K) = Degree and abs_disc_min <= |disc(K)| <= abs_disc_max and contains the set of all* elliptic curves over K (up to K-isomorphism) with everywhere good reduction. The entries of this table are tuples (K,Es), where K is a number field and Es is a list of tuples (c4,c6). Only those K are listed for which the computed list of curves is non-empty. Each number field K is given by the minimal polynomial of a primitive element. Each curve in this table is given as a tuple (c4, c6) of elements in K, which in particular determines a Weierstrass model Y^2 = X^3 - 27*c4*X - 54*c6 of the curve.",
+  "*Completeness": "Conditional under GRH: All fields K in the mentioned range are considered, however the completeness of the list of curves over that field is conditional on GRH.",
+  "degree": 6,
+  "abs_disc_min": 0,
+  "abs_disc_max": 100000,
+  "Number of curves": 0,
+  "Number of fields considered": 296,
+  "Number of such fields with elliptic curves of everywhere good reduction": 0,
+  "Time in CPU seconds": "1.02234723000000e6",
+  "Fields and curves": [],
+  "Author": "Benjamin Matschke",
+  "License": "Creative Commons Attribution-NonCommercial 4.0 International license."
+}
