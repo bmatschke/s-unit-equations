@@ -7,7 +7,7 @@ Each file `curves_deg_XXX_Dmax_YYY*` contains the set of all* elliptic curves wi
 ### Completeness 
 
 All number fields in the given range are considered, however if the filename contains an asterisk '*', then the completeness of the given sets of elliptic curves is conditional under GRH.
-In particular, all fields K with `|disc(K)| <= 10000` are considered (of any degree).
+In particular, all fields K with `|disc(K)| <= 20000` are considered (of any degree).
 
 ### Notes
 
