@@ -4,7 +4,7 @@
   "License": "Creative Commons Attribution-NonCommercial 4.0 International license.",
   "*Complete": "Conditional under GRH: Assuming GRH (which was done when computing the class groups of certain extension fields of K), this table is provably complete.",
   "Number of j-invariants": 2489,
-  "Time in CPU seconds": 149883.05,
+  "Time in CPU seconds": 15174.75,
   "Polynomial of K": "x^8 - 2*x^7 + 4*x^5 - 4*x^4 + 3*x^2 - 2*x + 1",
   "S": [
     [
@@ -786,8 +786,8 @@
     "-3136*x^7 + 8320*x^6 - 7232*x^5 - 14464*x^4 + 31936*x^3 - 7232*x^2 - 24576*x + 15104",
     "-8192*x^7 + 11200*x^6 + 13376*x^5 - 30592*x^4 + 9024*x^3 + 24576*x^2 - 17344*x - 320",
     "-128*x^7 + 8448*x^6 - 13248*x^5 + 4544*x^4 + 8576*x^3 - 13120*x^2 + 7808*x - 3200",
-    "-3520*x^7 - 19776*x^6 + 42944*x^5 + 9728*x^4 - 98304*x^3 + 56320*x^2 + 46336*x - 69824",
     "30656*x^7 - 47040*x^6 - 41088*x^5 + 111040*x^4 - 31616*x^3 - 42176*x^2 + 52736*x - 28416",
+    "-3520*x^7 - 19776*x^6 + 42944*x^5 + 9728*x^4 - 98304*x^3 + 56320*x^2 + 46336*x - 69824",
     "19968*x^7 - 23808*x^6 - 19712*x^5 + 48192*x^4 - 29056*x^3 - 25984*x^2 + 18112*x - 15424",
     "9024*x^7 - 21632*x^6 + 17856*x^5 - 576*x^4 - 9408*x^3 + 11840*x^2 - 4928*x + 2944",
     "5120*x^7 - 6144*x^6 - 5056*x^5 + 17344*x^4 - 10304*x^3 - 7040*x^2 + 15296*x + 768",
