@@ -1,12 +1,12 @@
 # Number fields unramified outside S
 
-This folder contains files such as ``fields_degD_SN*.sobj``.
+This folder contains files such as ``fields_deg[n]_S[k]*.sobj``.
 
-They contain all* defining polynomials of number fields of degree ``D`` that are unramified outside the first ``N`` rational primes.
+They contain all* defining polynomials of number fields of degree `n` that are unramified outside the first `k` rational primes.
 
 An asterisk `*` in the filename means that the result is conditional on GRH.
 
-Previously these tables of cubic fields were only known for `N <= 8` (available in the [LMFDB](https://www.lmfdb.org/NumberField/)).
+Previously these tables of cubic fields were only known for `k <= 8` (available in the [LMFDB](https://www.lmfdb.org/NumberField/)).
 These were computed by [Jones and Roberts](https://arxiv.org/abs/1404.0266) via a different method, namely Belabas' [cubic](https://www.math.u-bordeaux.fr/~kbelabas/research/cubic.html).
 
 ### Author

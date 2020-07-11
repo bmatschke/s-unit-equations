@@ -1,12 +1,12 @@
 # Two-division-field candidates
 
-This folder contains files ``fields_K_XXX_S_YYY.sobj``.
+This folder contains files ``fields_K_[d.r.D.i]_S_[primes].sobj``.
 
 Any such file contains all* field extensions L/K such that
 
-- K is the number field given by [LMFDB label](https://www.lmfdb.org/NumberField/FieldLabels) XXX,
+- K is the number field given by [LMFDB label](https://www.lmfdb.org/NumberField/FieldLabels) `d.r.D.i`,
 - L is the splitting field of some degree 3 polynomial over the number field K, and 
-- L/K is unramified outside S, where S is the set of primes in K above YYY. 
+- L/K is unramified outside S, where S is the set of primes in K above `primes`. 
 
 An asterisk `*` in the filename signifies that the completeness is conditional on GRH. 
 
