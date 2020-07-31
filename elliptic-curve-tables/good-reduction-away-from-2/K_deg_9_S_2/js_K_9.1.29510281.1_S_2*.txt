@@ -4,7 +4,7 @@
   "License": "Creative Commons Attribution-NonCommercial 4.0 International license.",
   "*Complete": "Conditional under GRH: Assuming GRH (which was done when computing the class groups of certain extension fields of K), this table is provably complete.",
   "Number of j-invariants": 4889,
-  "Time in CPU seconds": 229405.09,
+  "Time in CPU seconds": 64509.69,
   "Polynomial of K": "x^9 - 2*x^8 + 2*x^7 - 3*x^5 + 7*x^4 - 8*x^3 + 6*x^2 - 3*x + 1",
   "S": [
     [

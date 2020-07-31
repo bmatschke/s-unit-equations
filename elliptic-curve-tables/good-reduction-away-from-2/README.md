@@ -13,18 +13,19 @@ As in all tables of this repository, the completeness of the computed sets `M(2,
 All fields K with `|disc(K)| <= 20000` are considered, of any degree.
 Moreover, in certain degrees `n`, all fields K of degree `n` up to `|disc(K)| <= B(n)` are considered, where `n` and `B(n)` are given in the following table:
     
-     n        B(n)
-    ---------------
-     2       20000
-     3       20000
-     4       20000
-     5       50000
-     6      100000
-     7     1000000
-     8     1656109
+     n          B(n)           L(n)
+    --------------------------------
+     2        20,000
+     3        20,000
+     4        20,000
+     5        50,000
+     6       100,000
+     7     1,000,000
+     8     1,656,109      2,400,000
+     9    27,316,369    100,000,000
 
-In degree `n = 8` we consider all fields in the LMFDB up to `|disc(K)| <= 2400000`, however this list of fields is only known to be complete up to `|disc(K)| <= 1656109`.
+Furthermore, in degrees `n = 8` and `n = 9` we consider all fields in the LMFDB up to `|disc(K)| <= L(n)`, however these lists of fields are only known to be complete up to `|disc(K)| <= B(n)`.
 
-In degrees `n >= 9`, it is known that `|disc(K)| > 1000000`, and we only computed `M(2,K)` for a few examples.
+In degrees `n >= 10`, it is known that `|disc(K)| > 100,000,000`, and we computed `M(2,K)` for a few examples.
 
 For further information, see the README.md in the folder above.
