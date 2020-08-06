@@ -18,9 +18,22 @@ This project is still in progress, and the S-unit equation solver still in devel
 
 ### Completeness of the data
 
-Each given data file is either provably complete, or its completeness is conditional on GRH.
+Up to possible bugs, each given data file is either provably complete, or its completeness is conditional on GRH.
 If GRH is assumed, the filename is marked with an asterisk '*', and the json file also mentions it.
 
+### About possible bugs
+
+In principle the programs in this repository should be provably correct (modulo assumptions on GRH, which are always mentioned in that case).
+However during this project, a [bug](https://pari.math.u-bordeaux.fr/cgi-bin/bugreport.cgi?bug=2207) in the S-unit group implementation of Pari/GP 2.11.2 was found, and it is still present in SageMath versions 9.0 and 9.1, which were used in all the computations in this repository up to now.
+I assumed that I can detect this bug, and in that case rerun with higher precision using Pari or using Magma (versions V2.24-10 and V2.25-3) within Sage for the S-unit groups.
+However I recently ran into instances where my bug detection for the S-unit group class fails.
+Thus it is at present **not clear up to which point the tables in this repository are complete**.
+The bug was fixed with Pari/GP 2.11.4.
+Thus, to solve this issue for this repository, all computations for computing the tables in this repository should be run again, once Sage uses Pari 2.11.4 or higher. (Perhaps a more economical solution would be to first bound the set S-unit groups that are potentially affected by this bug.)
+
+On a more philosophical note, Magma is closed-source and proprietary, which make proofs bases on Magma computations at least debatable -- and this repository uses Magma as a fallback option for S-unit groups and also for computing discriminants of relative field extensions.
+Also the code in this repository has 20000 lines, and it relies on much larger computer algebra systems (Sage, Pari, Singular, Magma), such that more undetected bugs might occur.
+ 
 ### Related projects
 
 - An S-unit equation solver over number fields by Alvarado, Koutsianas, Malmskog, Rasmussen, Vincent, West [[arxiv:1903.00977]](https://arxiv.org/abs/1903.00977), available in [sage](https://www.sagemath.org/).

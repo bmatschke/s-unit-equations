@@ -5,7 +5,7 @@ This folder contains tables of elliptic curves over number fields K with bounded
 ### Contents
 
 - Folder `K_1.1.1.1`: All elliptic curves over Q with `rad(2*N) <= 2000`, given by (c4,c6).
-- Folder `K_1.1.1.1*`: All* elliptic curves over Q with `rad(2*N) <= 700000`, given by j. 
+- Folder `K_1.1.1.1*`: All* elliptic curves over Q with `rad(2*N) <= 1000000`, given by j. 
 - Folder `K_2.0.3.1*`: All* elliptic curves over Q(sqrt(-3)) with `rad(2*Norm(N)) <= 2000`, given by j.
 - Folder `K_2.0.4.1*`: All* elliptic curves over Q(i) with `rad(2*Norm(N)) <= 2000`, given by j.
 - Folder `K_2.2.5.1*`: All* elliptic curves over Q(sqrt(5)) with `rad(2*Norm(N)) <= 1000`, given by j.
@@ -18,6 +18,10 @@ The files in this table are indexed by `S = S' \cup {2}`.
 
 Moreover, all folders except for `K_1.1.1.1*` contain further data for additional S, outside the above mentioned range.
 
+### Disclaimer
+
+Please see the "possible bugs" section in the readme of the root folder.
+
 ### Format
 
 The format is the same as in the parent directory, except that in `K_1.1.1.1*` the files are zipped: 
@@ -27,6 +31,14 @@ Each zip file contains the j-invariants of all* rational elliptic curves with go
 
 Note that the files have a certain overlap, as any single file represents some M(S,K), and M(S,K) is contained in M(T,K) for any superset T of S.
 This redundancy is intended to make the data more searchable and uniform, at the price of a larger table.
+
+### Comparison with Cremona's database
+
+[Cremona's database](https://johncremona.github.io/ecdata/) contains currently the set of all elliptic curves over Q with `N <= 500000`.
+They should thus all be contained in folder `K_1.1.1.1*`, which we verified. 
+Vice versa, we verified that each minimal twist of an elliptic curve over Q with j-invariant in `K_1.1.1.1*` that satisfies `N <= 500000` is contained in Cremona's database.
+
+The maximal conductor N of an elliptic curve over Q with `rad(2N) <= 1000000` is `N = 1727923968836352` (and with `rad(2N) = 30` it is `N = 1555200`).
 
 ### Author
 
