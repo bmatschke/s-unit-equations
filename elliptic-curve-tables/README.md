@@ -50,6 +50,7 @@ This being said, great effort has already been undertaken to assure that every d
 
 Each given data file is either provably complete, or its completeness is conditional on GRH.
 If GRH is assumed, the filename is marked with an asterisk '*', and the json file also mentions it. 
+See README.md of top folder about possible bugs.
 
 ### Number of elliptic curves for some small fields
 
@@ -67,7 +68,7 @@ If GRH is assumed, the filename is marked with an asterisk '*', and the json fil
     {2,3,5,7,11,13}                    4576128            34960
     {2,3,5,7,11,13,17}                32367872           124124
     {2,3,5,7,11,13,17,19}            217923072           418816
-    {2,3,5,7,11,13,17,19,23}        1390818304*         1338028*
+    {2,3,5,7,11,13,17,19,23}      > 1390818304        > 1338028 (bug detected, needs to be recomputed)
 
     K = Q(sqrt(-3)) = "2.0.3.1":
     ============================
